@@ -1,0 +1,51 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#wc-woo-phxmn-cc-form {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    background-color: #f9f9f7;
+    border: 1px solid #fff;
+    margin: 0 auto 0;
+    left: 0;
+    padding: 13px 20px;
+}
+#wc-woo-phxmn-cc-form input {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    color: #333;
+    display: block;
+    font-size: 18px;
+    height: 32px;
+    padding: 0 5px;
+    width: 275px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#wc-woo-phxmn-cc-form input:focus {
+    outline: 1px solid #38d;
+}
+#wc-woo-phxmn-cc-form .credit-field-error {
+    color: red;
+    font-size: .9em;
+    margin: 0;
+}
+#wc-woo-phxmn-cc-form label {
+    margin: 0;
+}
+#wc-woo-phxmn-cc-form .form-row-wide {
+    margin-bottom: 10px;
+}
+#wc-woo-phxmn-cc-form .form-row-wide input {
+    width: 100%;
+    display: block;
+}
+#wc-woo-phxmn-cc-form .form-row-last input, 
+#wc-woo-phxmn-cc-form .form-row-first input{
+    width: 100%;
+}
